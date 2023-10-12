@@ -1,0 +1,43 @@
+.gallery-card {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.card-label {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.card-label_transport {
+  display: inline-flex;
+  padding: 15px 20px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 100px;
+  background: #FFF59D;
+}
+
+.card-label_people {
+  display: inline-flex;
+  padding: 15px 20px;
+  align-items: flex-start;
+  gap: 3px;
+  border-radius: 100px;
+  background: #FFF59D;
+}
+.card-label_peopleImg {
+  width: 16px;
+  height: 16px;
+}
+
+.gallery-card_text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  font-size: 45px;
+  line-height: 93.523%;
+  letter-spacing: -1.8px;
+  color: #FFFEF4;
+}
